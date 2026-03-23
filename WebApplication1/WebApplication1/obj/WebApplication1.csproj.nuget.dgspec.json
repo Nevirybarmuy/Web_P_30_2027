@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\rep\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\rep\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\rep\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\rep\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\barsa\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "C:\\rep\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
