@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GITHUB\\Project\\Marketplace\\Marketplace\\Marketplace.csproj": {}
+    "D:\\P-30\\Новая папка (2)\\Project\\Marketplace\\Marketplace\\Marketplace.csproj": {}
   },
   "projects": {
-    "C:\\GITHUB\\Project\\Marketplace\\Marketplace\\Marketplace.csproj": {
+    "D:\\P-30\\Новая папка (2)\\Project\\Marketplace\\Marketplace\\Marketplace.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GITHUB\\Project\\Marketplace\\Marketplace\\Marketplace.csproj",
+        "projectUniqueName": "D:\\P-30\\Новая папка (2)\\Project\\Marketplace\\Marketplace\\Marketplace.csproj",
         "projectName": "Marketplace",
-        "projectPath": "C:\\GITHUB\\Project\\Marketplace\\Marketplace\\Marketplace.csproj",
-        "packagesPath": "C:\\Users\\barsa\\.nuget\\packages\\",
-        "outputPath": "C:\\GITHUB\\Project\\Marketplace\\Marketplace\\obj\\",
+        "projectPath": "D:\\P-30\\Новая папка (2)\\Project\\Marketplace\\Marketplace\\Marketplace.csproj",
+        "packagesPath": "C:\\Users\\st403\\.nuget\\packages\\",
+        "outputPath": "D:\\P-30\\Новая папка (2)\\Project\\Marketplace\\Marketplace\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\barsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\st403\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -74,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
