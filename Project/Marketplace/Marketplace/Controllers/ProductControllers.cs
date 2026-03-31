@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Marketplace.Data;
+using Marketplace.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Data;
-using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
@@ -24,26 +24,14 @@ namespace WebApplication1.Controllers
             return Ok(products);
         }
 
-        // GET: api/products/{id}
+        // GET: api/products/5
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             var product = await _context.Products.FindAsync(id);
             if (product == null)
-            {
-                return NotFound($"Товар с id {id} не найден");
-            }
+                return NotFound();
             return Ok(product);
-        }
-
-        // GET: api/products/category/{category}
-        [HttpGet("category/{category}")]
-        public async Task<IActionResult> GetByCategory(string category)
-        {
-            var products = await _context.Products
-                .Where(p => p.Category == category)
-                .ToListAsync();
-            return Ok(products);
         }
 
         // POST: api/products
@@ -53,45 +41,42 @@ namespace WebApplication1.Controllers
             product.CreatedAt = DateTime.Now;
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetById), new { id = product.Id }, product);
+            return Ok(product);
         }
 
-        // PUT: api/products/{id}
+        // PUT: api/products/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] Product updatedProduct)
+        public async Task<IActionResult> Update(int id, [FromBody] Product product)
         {
-            var product = await _context.Products.FindAsync(id);
-            if (product == null)
-            {
-                return NotFound($"Товар с id {id} не найден");
-            }
+            if (id != product.Id)
+                return BadRequest();
 
-            product.Name = updatedProduct.Name;
-            product.Description = updatedProduct.Description;
-            product.Price = updatedProduct.Price;
-            product.Quantity = updatedProduct.Quantity;
-            product.Category = updatedProduct.Category;
-            product.ImageUrl = updatedProduct.ImageUrl;
-            product.Rating = updatedProduct.Rating;
-            product.IsAvailable = updatedProduct.IsAvailable;
-
+            _context.Entry(product).State = EntityState.Modified;
             await _context.SaveChangesAsync();
             return Ok(product);
         }
 
-        // DELETE: api/products/{id}
+        // DELETE: api/products/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             var product = await _context.Products.FindAsync(id);
             if (product == null)
-            {
-                return NotFound($"Товар с id {id} не найден");
-            }
+                return NotFound();
 
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
-            return Ok($"Товар {product.Name} удален");
+            return Ok();
+        }
+
+        // GET: api/products/category/Электроника
+        [HttpGet("category/{category}")]
+        public async Task<IActionResult> GetByCategory(string category)
+        {
+            var products = await _context.Products
+                .Where(p => p.Category == category)
+                .ToListAsync();
+            return Ok(products);
         }
     }
 }

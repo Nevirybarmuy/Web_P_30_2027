@@ -1,43 +1,21 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WebApplication1.Models
+namespace Marketplace.Models;
+
+public class Product
 {
-    public class Product
-    {
-        [Key]
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-        [Required]
-        [MaxLength(200)]
-        public string Name { get; set; } = string.Empty;
+    [Required]
+    public string Name { get; set; } = "";
 
-        [MaxLength(1000)]
-        public string Description { get; set; } = string.Empty;
+    [Required]
+    public decimal Price { get; set; }
 
-        [Required]
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal Price { get; set; }
-
-        [Required]
-        public int Quantity { get; set; }
-
-        [Required]
-        [MaxLength(100)]
-        public string Category { get; set; } = string.Empty;
-
-        [MaxLength(500)]
-        public string ImageUrl { get; set; } = string.Empty;
-
-        [Range(0, 5)]
-        public double Rating { get; set; }
-
-        public bool IsAvailable { get; set; } = true;
-
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
-
-        // Навигационные свойства
-        public ICollection<Order> Orders { get; set; } = new List<Order>();
-        public ICollection<Review> Reviews { get; set; } = new List<Review>();
-    }
+    public int Quantity { get; set; }
+    public string Category { get; set; } = "";
+    public string Description { get; set; } = "";
+    public string ImageUrl { get; set; } = "";
+    public bool IsAvailable { get; set; } = true;
+    public DateTime CreatedAt { get; set; } = DateTime.Now;
 }

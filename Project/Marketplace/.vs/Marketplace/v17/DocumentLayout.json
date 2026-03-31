@@ -1,12 +1,246 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\GITHUB\\Project\\Marketplace\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\controllers\\productcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\controllers\\productcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\migrations\\20260323041029_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\migrations\\20260323041029_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\migrations\\20260323041029_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\migrations\\20260323041029_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\marketplace.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\marketplace.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|d:\\p-30\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\project\\marketplace\\marketplace\\marketplace.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{74FECEEE-AFC5-4C60-9FCF-BE005A79BCBF}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\marketplace.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Marketplace\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T05:41:28.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260323041029_InitialCreate.cs",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Migrations\\20260323041029_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Migrations\\20260323041029_InitialCreate.cs",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Migrations\\20260323041029_InitialCreate.cs",
+              "RelativeToolTip": "Marketplace\\Migrations\\20260323041029_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T05:37:46.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Marketplace\\Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Marketplace\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwCEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T05:18:04.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Marketplace\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Marketplace\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T05:17:39.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Models\\Product.cs",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Models\\Product.cs",
+              "RelativeToolTip": "Marketplace\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T05:12:06.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductControllers.cs",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Controllers\\ProductControllers.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Controllers\\ProductControllers.cs",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Controllers\\ProductControllers.cs",
+              "RelativeToolTip": "Marketplace\\Controllers\\ProductControllers.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T05:04:37.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Marketplace\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T05:04:13.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\appsettings.json",
+              "RelativeDocumentMoniker": "Marketplace\\appsettings.json",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\appsettings.json",
+              "RelativeToolTip": "Marketplace\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T06:00:52.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Program.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Program.cs",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Program.cs",
+              "RelativeToolTip": "Marketplace\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T05:51:42.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260323041029_InitialCreate.Designer.cs",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Migrations\\20260323041029_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Migrations\\20260323041029_InitialCreate.Designer.cs",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Migrations\\20260323041029_InitialCreate.Designer.cs",
+              "RelativeToolTip": "Marketplace\\Migrations\\20260323041029_InitialCreate.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T05:42:49.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Marketplace\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Marketplace\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T05:18:20.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Marketplace.http",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Marketplace.http",
+              "RelativeDocumentMoniker": "Marketplace\\Marketplace.http",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Marketplace.http",
+              "RelativeToolTip": "Marketplace\\Marketplace.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-30T05:59:22.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Marketplace",
+              "DocumentMoniker": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Marketplace.csproj",
+              "RelativeDocumentMoniker": "Marketplace\\Marketplace.csproj",
+              "ToolTip": "D:\\P-30\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\Project\\Marketplace\\Marketplace\\Marketplace.csproj",
+              "RelativeToolTip": "Marketplace\\Marketplace.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-30T05:52:24.218Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 111,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
