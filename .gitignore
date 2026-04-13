@@ -2,4 +2,8 @@
 # Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/PPFP{/v17
+/Project/Marketplace/.vs/Marketplace/v17/.suo
+/.vs/PPFP{/v17/DocumentLayout.json
+/Project/Marketplace/.vs/ProjectEvaluation/marketplace.metadata.v9.bin
+/Project/Marketplace/.vs/ProjectEvaluation/marketplace.projects.v9.bin
+/Project/Marketplace/.vs/ProjectEvaluation/marketplace.strings.v9.bin
