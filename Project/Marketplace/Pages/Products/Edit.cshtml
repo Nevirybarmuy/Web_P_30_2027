@@ -1,0 +1,59 @@
+@page "{id:int}"
+@model Marketplace.Pages.Products.EditModel
+@{
+    ViewData["Title"] = "Редактировать товар";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-7">
+        <div class="card p-4">
+            <h3 class="fw-bold mb-4">Редактировать товар</h3>
+
+            <form method="post">
+                <input type="hidden" asp-for="Product.Id" />
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger" style="display:none"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Product.Name" class="form-label">Название *</label>
+                    <input asp-for="Product.Name" class="form-control" required />
+                    <span asp-validation-for="Product.Name" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Product.Description" class="form-label">Описание</label>
+                    <textarea asp-for="Product.Description" class="form-control" rows="3"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Product.Price" class="form-label">Цена (₽) *</label>
+                    <input asp-for="Product.Price" class="form-control" type="number" min="0" required />
+                    <span asp-validation-for="Product.Price" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Product.Stock" class="form-label">Остаток *</label>
+                    <input asp-for="Product.Stock" class="form-control" type="number" min="0" required />
+                    <span asp-validation-for="Product.Stock" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Product.ImageUrl" class="form-label">Ссылка на изображение</label>
+                    <input asp-for="Product.ImageUrl" class="form-control" placeholder="https://..." />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Product.CategoryId" class="form-label">Категория *</label>
+                    <select asp-for="Product.CategoryId" asp-items="Model.Categories" class="form-select" required>
+                        <option value="">— выберите —</option>
+                    </select>
+                    <span asp-validation-for="Product.CategoryId" class="text-danger small"></span>
+                </div>
+
+                <div class="d-flex gap-2 mt-4">
+                    <button type="submit" class="btn btn-primary">Сохранить</button>
+                    <a href="/Products" class="btn btn-outline-secondary">Отмена</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

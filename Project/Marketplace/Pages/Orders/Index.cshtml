@@ -1,0 +1,57 @@
+@page
+@model Marketplace.Pages.Orders.IndexModel
+@{
+    ViewData["Title"] = "Заказы";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="fw-bold" style="color:#c8a84b;">Заказы</h2>
+    <a href="/Orders/Create" class="btn btn-primary">+ Новый заказ</a>
+</div>
+
+@if (!Model.Orders.Any())
+{
+    <div class="alert alert-secondary">Заказов пока нет.</div>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-dark table-hover align-middle">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Покупатель</th>
+                    <th>Товар</th>
+                    <th>Кол-во</th>
+                    <th>Сумма</th>
+                    <th>Статус</th>
+                    <th>Дата</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model.Orders)
+                {
+                    <tr>
+                        <td>@order.Id</td>
+                        <td>@order.CustomerName</td>
+                        <td>@order.Product?.Name</td>
+                        <td>@order.Quantity</td>
+                        <td>@order.TotalPrice ₽</td>
+                        <td>
+                            @{
+                                var cls = order.Status switch { "Выполнен" => "success", "Отменён" => "danger", _ => "warning" };
+                            }
+                            <span class="badge bg-@cls">@order.Status</span>
+                        </td>
+                        <td class="text-muted small">@order.OrderDate.ToString("dd.MM.yyyy")</td>
+                        <td>
+                            <a href="/Orders/Edit/@order.Id" class="btn btn-sm btn-outline-secondary">Изменить</a>
+                            <a href="/Orders/Delete/@order.Id" class="btn btn-sm btn-outline-danger">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

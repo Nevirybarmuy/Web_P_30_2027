@@ -1,0 +1,48 @@
+@page "{id:int}"
+@model Marketplace.Pages.Orders.EditModel
+@{
+    ViewData["Title"] = "Редактировать заказ";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card p-4">
+            <h3 class="fw-bold mb-4">Редактировать заказ</h3>
+            <form method="post">
+                <input type="hidden" asp-for="Order.Id" />
+                <input type="hidden" asp-for="Order.OrderDate" />
+                <input type="hidden" asp-for="Order.TotalPrice" />
+                <input type="hidden" asp-for="Order.Name" />
+
+                <div class="mb-3">
+                    <label asp-for="Order.CustomerName" class="form-label">Имя покупателя *</label>
+                    <input asp-for="Order.CustomerName" class="form-control" required />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Order.CustomerEmail" class="form-label">Email *</label>
+                    <input asp-for="Order.CustomerEmail" class="form-control" type="email" required />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Order.Quantity" class="form-label">Количество *</label>
+                    <input asp-for="Order.Quantity" class="form-control" type="number" min="1" required />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Order.Status" class="form-label">Статус</label>
+                    <select asp-for="Order.Status" class="form-select">
+                        <option>В обработке</option>
+                        <option>Выполнен</option>
+                        <option>Отменён</option>
+                    </select>
+                </div>
+
+                <div class="d-flex gap-2 mt-4">
+                    <button type="submit" class="btn btn-primary">Сохранить</button>
+                    <a href="/Orders" class="btn btn-outline-secondary">Отмена</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,4 @@
+git rm -r --cached .vs/
+git add .gitignore
+git commit -m "Добавлен gitignore"
+git push
